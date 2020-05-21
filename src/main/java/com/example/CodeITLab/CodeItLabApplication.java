@@ -19,7 +19,7 @@ class HelloController {
 
 	@GetMapping("/")
 	String hello() {
-		return "Hello Heroku!";
+		return "Ovo je Springboot aplikacija koja je buildana i deployana direktno sa Githuba. Ovaj Heroku kara majke.";
 	}
 }
 
